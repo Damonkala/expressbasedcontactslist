@@ -1,0 +1,6 @@
+/*tr, td, th {
+	border: 1px solid black;
+}*/
+.edit:hover, .delete:hover {
+  cursor: pointer;
+}

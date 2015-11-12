@@ -1,0 +1,17 @@
+doctype html
+html(lang='en')
+	head
+		title Add
+		link(href="bower_components/bootstrap/dist/css/bootstrap.min.css", rel='stylesheet')
+		.container
+			.row
+				h1 Add a contact
+				.row
+					each val, prop in items[0]
+						label #{prop.toUpperCase()}:
+						input(id= prop)
+			button.btn#submit add
+			button.btn#return confirm
+		.row
+		script(src='bower_components/jquery/dist/jquery.min.js')
+		script(src='js/contacts/add.js')

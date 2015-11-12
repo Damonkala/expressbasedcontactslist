@@ -1,0 +1,25 @@
+{
+  "name": "todo-express",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Damon Kalaboukis <damonkala@yahoo.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Damonkala/todo-express",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "jquery": "jQuery#~2.1.4",
+    "font-awesome": "~4.4.0",
+    "sweetalert": "~1.1.3"
+  }
+}
